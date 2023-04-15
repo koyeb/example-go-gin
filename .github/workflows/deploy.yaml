@@ -20,4 +20,4 @@ jobs:
           api-token: "${{ secrets.KOYEB_EXAMPLES_APPS_TOKEN }}"
           service-ports: "8000:http"
           service-routes: "/:8000"
-          gin-run-command: bin/example-go-gin
+          git-run-command: bin/example-go-gin
