@@ -26,3 +26,4 @@ jobs:
           service-ports: "8000:http"
           service-routes: "/:8000"
           git-run-command: bin/example-go-gin
+          skip-cache: true
