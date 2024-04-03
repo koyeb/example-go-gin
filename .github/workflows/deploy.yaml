@@ -25,5 +25,6 @@ jobs:
           app-name: go-gin-${{ github.ref_name }}
           service-ports: "8000:http"
           service-routes: "/:8000"
+          git-builder: "buildpack"
           git-run-command: bin/example-go-gin
           skip-cache: true
